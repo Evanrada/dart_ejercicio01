@@ -9,7 +9,7 @@ mayores y cuántos son menores de edad. */
   while (c < 20) {
     print('Introduzca la edad de la persona #$a');
     var x = stdin.readLineSync();
-    int n = int.parse('$x');
+    int edad = int.parse('$x');
     a = a + 1;
     c = c + 1;
   }
